@@ -16,7 +16,7 @@ const greeting = {
   subTitle: emoji(
     "Self-taught Developer 🚀 building AI-powered SaaS/ERP and automation tools with React · Node.js · Python · Bash."
   ),
-  resumeLink: "",            // CV linkin varsa bura əlavə et (məs: '/resume.pdf' və ya Google Drive linki)
+  resumeLink: "https://raufa1.github.io/portfolio/resume.pdf",
   displayGreeting: true
 };
 
