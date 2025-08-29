@@ -54,13 +54,13 @@ const EN = {
       emoji("🧱 LiteLLM Proxy with OpenAI/Anthropic-compatible API")
     ],
     softwareSkills: [
-      { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-      { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
-      { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-      { skillName: "bash", fontAwesomeClassname: "fas fa-terminal" },
-      { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
-      { skillName: "git", fontAwesomeClassname: "fab fa-git" },
-      { skillName: "database", fontAwesomeClassname: "fas fa-database" }
+      {skillName: "reactjs", fontAwesomeClassname: "fab fa-react"},
+      {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
+      {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+      {skillName: "bash", fontAwesomeClassname: "fas fa-terminal"},
+      {skillName: "linux", fontAwesomeClassname: "fab fa-linux"},
+      {skillName: "git", fontAwesomeClassname: "fab fa-git"},
+      {skillName: "database", fontAwesomeClassname: "fas fa-database"}
     ],
     display: true
   },
@@ -72,8 +72,7 @@ const EN = {
         // logo: require("./assets/images/university.png"), // intentionally no image
         subHeader: "Bachelor in Management",
         duration: "2012 - 2018",
-        desc:
-          "Formal education in Management. Software engineering learned self-directedly with AI assistance.",
+        desc: "Formal education in Management. Software engineering learned self-directedly with AI assistance.",
         descBullets: []
       }
     ]
@@ -88,7 +87,10 @@ const EN = {
         projectDesc:
           "LiteLLM proxy + CLI wrappers (Claude & Smart) with automatic “sonnet 4” masking, self-healing tools, and backup utility.",
         footerLink: [
-          { name: "GitHub Repo", url: "https://github.com/raufA1/llm-family-pack" }
+          {
+            name: "GitHub Repo",
+            url: "https://github.com/raufA1/llm-family-pack"
+          }
         ]
       },
       {
@@ -97,7 +99,7 @@ const EN = {
         projectDesc:
           "AI-assisted CLI for coding, terminal automation, and project orchestration.",
         footerLink: [
-          { name: "GitHub Repo", url: "https://github.com/raufA1/smart-cli" }
+          {name: "GitHub Repo", url: "https://github.com/raufA1/smart-cli"}
         ]
       }
     ],
@@ -106,9 +108,9 @@ const EN = {
   techStack: {
     viewSkillBars: true,
     experience: [
-      { Stack: "Frontend/Design", progressPercentage: "80%" },
-      { Stack: "Backend", progressPercentage: "75%" },
-      { Stack: "Programming", progressPercentage: "85%" }
+      {Stack: "Frontend/Design", progressPercentage: "80%"},
+      {Stack: "Backend", progressPercentage: "75%"},
+      {Stack: "Programming", progressPercentage: "85%"}
     ]
   },
   workExperiences: {
@@ -120,11 +122,16 @@ const EN = {
     subtitle: "Download my resume / CV",
     display: false // şablon bunu yoxlayır; real link greeting.resumeLink-dədir
   },
-  openSource: { showGithubProfile: "true", display: true },
-  achievementSection: { title: "Achievements", subtitle: "", achievementsCards: [], display: false },
-  blogSection:       { title: "Blogs", subtitle: "", blogs: [], display: false },
-  talkSection:       { title: "Talks", subtitle: "", talks: [], display: false },
-  podcastSection:    { title: "Podcast", subtitle: "", podcast: [], display: false },
+  openSource: {showGithubProfile: "true", display: true},
+  achievementSection: {
+    title: "Achievements",
+    subtitle: "",
+    achievementsCards: [],
+    display: false
+  },
+  blogSection: {title: "Blogs", subtitle: "", blogs: [], display: false},
+  talkSection: {title: "Talks", subtitle: "", talks: [], display: false},
+  podcastSection: {title: "Podcast", subtitle: "", podcast: [], display: false},
   contactInfo: {
     title: "Contact",
     subtitle: "Open to collaboration and OSS.",
@@ -132,7 +139,7 @@ const EN = {
     email_address: "",
     display: true
   },
-  twitterDetails: { userName: "", display: false },
+  twitterDetails: {userName: "", display: false},
   isHireable: true
 };
 
@@ -165,17 +172,19 @@ const AZ = {
     skills: [
       emoji("⚙️ AI əsaslı developer alətləri (CLI, avtomatlaşdırma)"),
       emoji("🤖 Model alias maskalama (məs: “sonnet 4”) & smart fallback"),
-      emoji("🔐 Təhlükəsiz açar idarəetməsi (env + chmod 600), systemd xidmətləri"),
+      emoji(
+        "🔐 Təhlükəsiz açar idarəetməsi (env + chmod 600), systemd xidmətləri"
+      ),
       emoji("🧱 OpenAI/Anthropic-kompatibıl LiteLLM Proxy")
     ],
     softwareSkills: [
-      { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-      { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
-      { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-      { skillName: "bash", fontAwesomeClassname: "fas fa-terminal" },
-      { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
-      { skillName: "git", fontAwesomeClassname: "fab fa-git" },
-      { skillName: "database", fontAwesomeClassname: "fas fa-database" }
+      {skillName: "reactjs", fontAwesomeClassname: "fab fa-react"},
+      {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
+      {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+      {skillName: "bash", fontAwesomeClassname: "fas fa-terminal"},
+      {skillName: "linux", fontAwesomeClassname: "fab fa-linux"},
+      {skillName: "git", fontAwesomeClassname: "fab fa-git"},
+      {skillName: "database", fontAwesomeClassname: "fas fa-database"}
     ],
     display: true
   },
@@ -186,8 +195,7 @@ const AZ = {
         schoolName: "Moscow Polytechnic University",
         subHeader: "Menecment üzrə Bakalavr",
         duration: "2012 - 2018",
-        desc:
-          "Rəsmi təhsil Menecment. Proqramlaşdırmanı özüm və AI alətlərinin köməyi ilə öyrənmişəm.",
+        desc: "Rəsmi təhsil Menecment. Proqramlaşdırmanı özüm və AI alətlərinin köməyi ilə öyrənmişəm.",
         descBullets: []
       }
     ]
@@ -202,7 +210,10 @@ const AZ = {
         projectDesc:
           "LiteLLM proxy + CLI wrapper-lər (Claude & Smart) — avtomatik “sonnet 4” maskalama, özünü bərpa, backup utilitisi.",
         footerLink: [
-          { name: "GitHub Repo", url: "https://github.com/raufA1/llm-family-pack" }
+          {
+            name: "GitHub Repo",
+            url: "https://github.com/raufA1/llm-family-pack"
+          }
         ]
       },
       {
@@ -211,7 +222,7 @@ const AZ = {
         projectDesc:
           "Kodlama, terminal avtomatlaşdırma və orkestrasiya üçün AI-assistent CLI.",
         footerLink: [
-          { name: "GitHub Repo", url: "https://github.com/raufA1/smart-cli" }
+          {name: "GitHub Repo", url: "https://github.com/raufA1/smart-cli"}
         ]
       }
     ],
@@ -220,9 +231,9 @@ const AZ = {
   techStack: {
     viewSkillBars: true,
     experience: [
-      { Stack: "Frontend/Dizayn", progressPercentage: "80%" },
-      { Stack: "Backend", progressPercentage: "75%" },
-      { Stack: "Proqramlaşdırma", progressPercentage: "85%" }
+      {Stack: "Frontend/Dizayn", progressPercentage: "80%"},
+      {Stack: "Backend", progressPercentage: "75%"},
+      {Stack: "Proqramlaşdırma", progressPercentage: "85%"}
     ]
   },
   workExperiences: {
@@ -234,11 +245,16 @@ const AZ = {
     subtitle: "CV-ni yüklə",
     display: false
   },
-  openSource: { showGithubProfile: "true", display: true },
-  achievementSection: { title: "Uğurlar", subtitle: "", achievementsCards: [], display: false },
-  blogSection:       { title: "Bloq", subtitle: "", blogs: [], display: false },
-  talkSection:       { title: "Çıxışlar", subtitle: "", talks: [], display: false },
-  podcastSection:    { title: "Podkast", subtitle: "", podcast: [], display: false },
+  openSource: {showGithubProfile: "true", display: true},
+  achievementSection: {
+    title: "Uğurlar",
+    subtitle: "",
+    achievementsCards: [],
+    display: false
+  },
+  blogSection: {title: "Bloq", subtitle: "", blogs: [], display: false},
+  talkSection: {title: "Çıxışlar", subtitle: "", talks: [], display: false},
+  podcastSection: {title: "Podkast", subtitle: "", podcast: [], display: false},
   contactInfo: {
     title: "Əlaqə",
     subtitle: "Açıq mənbə və əməkdaşlığa açığam.",
@@ -246,33 +262,37 @@ const AZ = {
     email_address: "",
     display: true
   },
-  twitterDetails: { userName: "", display: false },
+  twitterDetails: {userName: "", display: false},
   isHireable: true
 };
 
 /* ---------- Common (hər iki dildə ortaq) ---------- */
-const splashScreen = { enabled: true, animation: splashAnimation, duration: 2000 };
-const illustration = { animated: true };
+const splashScreen = {
+  enabled: true,
+  animation: splashAnimation,
+  duration: 2000
+};
+const illustration = {animated: true};
 
 /* ---------- Aktiv dili seç və eyni adlarla export et ---------- */
 const D = L === "az" ? AZ : EN;
 
-const greeting          = D.greeting;
-const socialMediaLinks  = D.socialMediaLinks;
-const skillsSection     = D.skillsSection;
-const educationInfo     = D.educationInfo;
-const bigProjects       = D.bigProjects;
-const techStack         = D.techStack;
-const workExperiences   = D.workExperiences;
-const resumeSection     = D.resumeSection;
-const openSource        = D.openSource;
-const achievementSection= D.achievementSection;
-const blogSection       = D.blogSection;
-const talkSection       = D.talkSection;
-const podcastSection    = D.podcastSection;
-const contactInfo       = D.contactInfo;
-const twitterDetails    = D.twitterDetails;
-const isHireable        = D.isHireable;
+const greeting = D.greeting;
+const socialMediaLinks = D.socialMediaLinks;
+const skillsSection = D.skillsSection;
+const educationInfo = D.educationInfo;
+const bigProjects = D.bigProjects;
+const techStack = D.techStack;
+const workExperiences = D.workExperiences;
+const resumeSection = D.resumeSection;
+const openSource = D.openSource;
+const achievementSection = D.achievementSection;
+const blogSection = D.blogSection;
+const talkSection = D.talkSection;
+const podcastSection = D.podcastSection;
+const contactInfo = D.contactInfo;
+const twitterDetails = D.twitterDetails;
+const isHireable = D.isHireable;
 
 /* ---------- Exports (şablonun gözlədiyi kimi) ---------- */
 export {
@@ -295,4 +315,3 @@ export {
   techStack,
   isHireable
 };
-

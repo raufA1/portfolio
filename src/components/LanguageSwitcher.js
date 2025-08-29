@@ -6,10 +6,10 @@ const btnStyle = {
   bottom: "14px",
   zIndex: 9999,
   display: "flex",
-  gap: "6px",
+  gap: "6px"
 };
 
-const pill = (active) => ({
+const pill = active => ({
   padding: "8px 10px",
   borderRadius: "16px",
   border: "1px solid #ddd",
@@ -17,7 +17,7 @@ const pill = (active) => ({
   color: active ? "#fff" : "#111",
   cursor: "pointer",
   fontSize: "12px",
-  lineHeight: 1,
+  lineHeight: 1
 });
 
 export default function LanguageSwitcher() {
@@ -29,7 +29,7 @@ export default function LanguageSwitcher() {
     }
   } catch (_) {}
 
-  const setLang = (lang) => {
+  const setLang = lang => {
     try {
       window.localStorage.setItem("lang", lang);
       window.location.reload();
@@ -38,8 +38,12 @@ export default function LanguageSwitcher() {
 
   return (
     <div style={btnStyle} aria-label="Language switcher">
-      <button style={pill(current === "az")} onClick={() => setLang("az")}>AZ</button>
-      <button style={pill(current === "en")} onClick={() => setLang("en")}>EN</button>
+      <button style={pill(current === "az")} onClick={() => setLang("az")}>
+        AZ
+      </button>
+      <button style={pill(current === "en")} onClick={() => setLang("en")}>
+        EN
+      </button>
     </div>
   );
 }
